@@ -71,14 +71,14 @@ The project is a web-based Role-Based Access Control (RBAC) application designed
 - Super user created earlier also acts as Admin role we mentioned in perspective of workspace
 ### Manager Dashboard
 
-- Use your **manager credentials** to log in.
+- Use your manager credentials to log in.
 - After login, the **"Assigned Projects"** tab will be displayed by default.
-- Use the **navigation tabs** to switch between:
+- Use the navigation tabs to switch between:
   - "Assigned Projects" (Manager can view the list of projects assinged by user and can edit project details)
   - "Employees" (Manger can view the list of all the employees(developers/team leads))
   - "Assign Project" (Manager can assign projects)
 - Navigate to the **"Assign Project"** tab, fill in the details, and submit the form to assign a new project to an employee.
-- Click the **"Logout"** button in the top-right corner to securely end your session.
+- Click the "Logout" button in the top-right corner to securely end your session.
 
 ### Employee Dashboard
 
@@ -92,3 +92,17 @@ The project is a web-based Role-Based Access Control (RBAC) application designed
 - New role such as Team leader can be added so that manager will assign projects to team member and then team leader can share to their team members
 - OAuth can be implemented
 - Project Reports can be introduced to models
+
+## Images
+
+- This is the **Employee Dashboard** where employees can view their assigned projects and update their statuses. It provides a clean and user-friendly interface to manage tasks.
+<img src="./eDashboard.png" alt="EmployeeDashboard" width="600"/>
+
+- In this view, managers can see all the projects assigned to employees, along with important details such as due dates, project status, and the assigned employee. This helps managers keep track of project progress.
+<img src="./mDashboard1.png" alt="ManagerDashboardAssinedProjects" width="600"/>
+
+- This screen displays a list of all employees, including their usernames and email addresses. Managers can view the employee roster to make informed decisions on project assignments.
+<img src="./mDashboard2.png" alt="ManagerDashboardEmployeeList" width="600"/>
+
+- In the "Assign Project" tab, managers can assign new projects to employees by filling out the project details, including the project name, description, due date, and assigned employee.
+<img src="./mDashboard3.png" alt="ManagerDashboardAssignProjects" width="600"/>
